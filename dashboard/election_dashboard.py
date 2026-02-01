@@ -1,4 +1,3 @@
-# Save this as: election_network_dashboard.py
 
 import streamlit as st
 import pandas as pd
@@ -19,7 +18,7 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-# Custom CSS for better styling
+# Custom styling
 st.markdown("""
 <style>
     .main-header {
